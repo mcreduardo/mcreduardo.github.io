@@ -50,5 +50,14 @@ My LinkedIn</description>
       <description>SilageSnap   img.app { border-radius: 25%; }   img.SS { margin: 1em; padding: 0em;}   SilageSnap is an app avilable for both iOS and Android. It&amp;rsquo;s capable to assess particle size distribution of corn kernels in corn silage dairy feed using image analysis. It provides the agricultural community an easy method to estimate the kernel size distribution on the field. I was responsible for the development of the image processing code in C++11 using OpenCV.</description>
     </item>
     
+    <item>
+      <title>Projects</title>
+      <link>https://mcreduardo.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcreduardo.github.io/projects/</guid>
+      <description>SilageSnap   img.app { border-radius: 25%; }   img.SS { margin: 1em; padding: 0em;}   SilageSnap is an app avilable for both iOS and Android. It&amp;rsquo;s capable to assess particle size distribution of corn kernels in corn silage dairy feed using image analysis. It provides the agricultural community an easy method to estimate the kernel size distribution on the field. I was responsible for the development of the image processing code in C++11 using OpenCV.</description>
+    </item>
+    
   </channel>
 </rss>

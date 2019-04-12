@@ -42,6 +42,17 @@ My LinkedIn</description>
     </item>
     
     <item>
+      <title>Multiple Linear Regression Application using Shiny R</title>
+      <link>https://mcreduardo.github.io/mlr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcreduardo.github.io/mlr/</guid>
+      <description>&amp;mdash;&amp;gt;&amp;gt;&amp;gt; Run app on browser &amp;lt;&amp;lt;&amp;lt;&amp;mdash;
+This is an application made in R that allows the user to do Multiple Linear Regression without any knowledge of programming. The app has a graphical interface made with the package Shiny. The regression is made by simply uploading a txt file with the data and defining a regression formula with any variables contained in that file.
+ img.LRapp { border-radius: 3%; border: thin silver solid; margin: 1em; padding: 0em;}</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>https://mcreduardo.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

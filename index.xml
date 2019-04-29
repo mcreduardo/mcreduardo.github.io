@@ -71,6 +71,15 @@ This is an application made in R that allows the user to do Multiple Linear Regr
     </item>
     
     <item>
+      <title>Predicting no-shows for hospital appointments</title>
+      <link>https://mcreduardo.github.io/projects/noshows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcreduardo.github.io/projects/noshows/</guid>
+      <description> Problem Data Model Training Testing </description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>https://mcreduardo.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -98,5 +98,17 @@ This is an application made in R that allows the user to do Multiple Linear Regr
       <description>SilageSnap   img.app { border-radius: 25%; }   img.SS { margin: 1em; padding: 0em;}   SilageSnap is an app avilable for both iOS and Android. It&amp;rsquo;s capable to assess particle size distribution of corn kernels in corn silage dairy feed using image analysis. It provides the agricultural community an easy method to estimate the kernel size distribution on the field. I was responsible for the development of the image processing code in C++11 using OpenCV.</description>
     </item>
     
+    <item>
+      <title>iMaterialist (Fashion) 2019 at FGVC6 - Mask_RCNN</title>
+      <link>https://mcreduardo.github.io/projects/fashion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcreduardo.github.io/projects/fashion/</guid>
+      <description>GitHub repository
+Challenge iMaterialist (Fashion) 2019 at FGVC6: Fine-grained segmentation task for fashion and apparel
+Task &amp;ldquo;We present a new clothing dataset with the goal of introducing a novel fine-grained segmentation task by joining forces between the fashion and computer vision communities. The proposed task unifies both categorization and segmentation of rich and complete apparel attributes, an important step toward real-world applications.&amp;rdquo;
+Approach Mask R-CNN (paper) was chosen because it is currently among the best methods for this task (top 10 in Instance Segmentation on COCO), and it is fairly simple to be implemented.</description>
+    </item>
+    
   </channel>
 </rss>

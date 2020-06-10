@@ -46,7 +46,7 @@ $(document).ready(function () {
 
     // Typed JS TRIGGER
   	$(".header .middle-l h3 span").typed({
-  		strings: ["I am a Robotics Software Engineer", "I use computer vision to make Ag. and Contruction machines smarter"],
+  		strings: ["I am a Robotics Software Engineer", "I use computer vision to make Ag. and Construction machines smarter"],
   		loop: true,
   		startDelay: 1e2,
   		backDelay: 3e3

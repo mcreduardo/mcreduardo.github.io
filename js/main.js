@@ -46,10 +46,10 @@ $(document).ready(function () {
 
     // Typed JS TRIGGER
   	$(".header .middle-l h3 span").typed({
-  		strings: ["I am a Robotics Software Engineer", "I use computer vision to make Ag. and Construction machines smarter"],
+  		strings: ["I am a Research Engineer.", "I focus on the topics of Robotics and AI."],
   		loop: true,
-  		startDelay: 1e2,
-  		backDelay: 3e3
+  		startDelay: 1,
+  		backDelay: 1e3
   	});
     
     //// COUNT TO TRIGGER

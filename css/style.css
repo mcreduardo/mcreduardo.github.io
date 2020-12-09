@@ -357,6 +357,28 @@ p {
     margin-top: 60px;
     font-size: 13px;
 }
+.about-me .resume-button a {
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    display: inline-block;
+    width: auto;
+    margin-top: 23px;
+    padding: 8px 22px;
+    color: #009fea;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    background: #232323;
+}
+.about-me .resume-button a i {
+    padding-right: 3px;
+}
+.about-me .resume-button a:hover {
+    background: transparent;
+    color: #000;
+}
 .info-list {
     list-style: none;
     margin: 0;
@@ -629,6 +651,7 @@ p {
     margin-bottom: 8px;
 }
 .timeline-item {
+    border-radius: 10px;
     position: relative;
     padding: 15px 20px 10px;
     margin-left: 20px;
@@ -750,6 +773,9 @@ p {
 /* --------------------------------------
   10. PORTFOLIO
 -----------------------------------------*/
+.portfolio {
+    background: rgb(228, 228, 228);
+}
 /* 10.1  = PORTFOLIO FILTER BUTTONS */
 .portfolio .filter-portfolio {
     margin: 0 auto;

@@ -96,23 +96,13 @@
 							</a>
 						</li>
 						<li>
-							<a href="#about" data-scroll-nav="1">
+							<a href="#portifolio" data-scroll-nav="1">
+								<i class="fa fa-gears"></i> portifolio
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-scroll-nav="2">
 								<i class="fa fa-user-o"></i> About
-							</a>
-						</li>
-						<li>
-							<a href="#publications" data-scroll-nav="2">
-								<i class="fa fa-flask"></i> Research
-							</a>
-						</li>
-						<li>
-							<a href="#resume" data-scroll-nav="3">
-								<i class="fa fa-gears"></i> Resume
-							</a>
-						</li>
-						<li>
-							<a href="#portifolio" data-scroll-nav="4">
-								<i class="fa fa-suitcase"></i> Projects
 							</a>
 						</li>
 						<li>
@@ -141,8 +131,7 @@
 				<div class="middle-c">
 					<div class="middle-l text-center">
 						<div class="m-content">
-							<h5>Hi! I'm</h5>
-							<h1>Eduardo Rocha</h1>
+							<h3>Hi! I'm Eduardo Rocha</h3>
 							<h3><span></span></h3>
 							<!-- START SOCIAL MEDIA -->
 							<div class="social-n-small" style="font-size: 1em;">
@@ -181,318 +170,8 @@
 		</section>
 		<!-- =========    END HEADER    ======== -->
 
-
-		<!-- =========    ABOUT ME SECTION    ======== -->
-		<section class="about-me sect-spac" id="about" data-scroll-index="1">
-			<div class="sect-container">
-				<div class="s-title">
-					<h3>About Me</h3>
-					<div class="separator align-center">
-						<span></span>
-					</div>
-				</div>
-
-				<!-- START ABOUT TEXT AREA -->
-				<div class="about-text">
-					<p><span style="color:#009fea">I started my carrer with the focus on increasing the autonomy of agricultural and construction equipament - from
-						hardware architecture to using Computer Vision and Machine Learning</span>. 
-						I was very fortunate to work with cutting edge technologies for the 
-						John Deere Intelligent Solutions Group.
-						<span style="color:#009fea">I recently moved to a new role focused on advanced manufacturing at the Siemens' 
-						research group in Berkeley.</span> 
-						Although I still work with the same technologies as before,
-						this new area has a broader reach and impact (including in agriculture).
-						<br><br>
-						I was born and raised in Brasília, Brazil, where I acquired a <span style="color:#009fea">B.S. degree in Automation and
-						Controls Engineering</span>. I moved to the U.S. in 2018 and acquired a <span style="color:#009fea">M.S. degree in Biological
-						Systems Engineering focusing on Perception Systems and Machine Learning for Computer Vision</span>.
-						<br><br>
-						In my free time, I love to watch and practice sports, and I am passionate about traveling. I
-						often play soccer, and I love to be outdoors. From hiking to mountain biking, if the weather
-						allows it, chances are that I am outside.
-						<br><br></p>
-				</div>
-
-				<!-- / END ABOUT TEXT AREA -->
-
-				<div class="section">
-
-					<script>
-						window.onload = function () {
-
-							var chart = new CanvasJS.Chart("chartContainer", {
-								exportFileName: "Doughnut Chart",
-								exportEnabled: false,
-								animationEnabled: false,
-								legend: {
-									cursor: "pointer",
-									itemclick: explodePie,
-
-								},
-								data: [{
-									type: "doughnut",
-									innerRadius: 90,
-									showInLegend: false,
-									toolTipContent: "<b>{name}</b>",
-									indexLabel: "{name}",
-									dataPoints: [
-										{ y: 15, name: "Sleeping & dreaming about work", color: "#009fea" },
-										{ y: 20, name: "Things related to developing more cool stuff", color: "#000DAC" },
-										{ y: 5, name: "Playing soccer or exercising", color: "#0013FA" },
-										{ y: 20, name: "Spending time with family", color: "#009fea" },
-										{ y: 5, name: "Getting up to speed with the news", color: "#000DAC" },
-										{ y: 30, name: "Developing cool stuff", color: "#0013FA" },
-										{ y: 5, name: "Walking the dog", color: "#000DAC" }
-									]
-								}]
-							});
-							chart.render();
-
-							function explodePie(e) {
-								if (typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
-									e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
-								} else {
-									e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
-								}
-								e.chart.render();
-							}
-
-						}
-					</script>
-					<h3>A day in my life</h3>
-					<div id="chartContainer" style="height: 370px; margin-top: 25px auto;"></div>
-					<script src="js/canvasjs.min.js"></script>
-				</div>
-
-				<div class="clear"></div>
-
-			</div>
-		</section>
-		<!-- =========    END ABOUT ME SECTION    ======== -->
-
-
-		<!-- =========    FACTS SECTION    ======== -->
-		<section class="facts sect-spac">
-			<!--div class="sect-container">
-
-					<div class="fact-box col-xs-12 col-sm-3">
-						<h3>
-							<span class="count" data-from="0" data-to="90">0</span>
-						</h3> 
-						<h4>Projects Done</h4>
-					</div>
-					<div class="fact-box col-xs-12 col-sm-3">
-						<h3>
-							<span class="count" data-from="0" data-to="30">0</span>
-						</h3> 
-						<h4>CUPS OF COFFEE</h4>
-					</div>
-					<div class="fact-box col-xs-12 col-sm-3">
-						<h3>
-							<span class="count" data-from="0" data-to="500">0</span>
-						</h3> 
-						<h4>HAPPY CLIENTS</h4>
-					</div>
-					<div class="fact-box col-xs-12 col-sm-3">
-						<h3>
-							<span class="count" data-from="0" data-to="77">0</span>
-						</h3> 
-						<h4>GIVING SUPPORT</h4>
-					</div>
-
-				</div-->
-		</section>
-		<!-- =========    END FACTS SECTION    ======== -->
-
-
-		<!-- =========    RESEARCH SECTION    ======== -->
-		<section class="research sect-spac text-center" id="publications" data-scroll-index="2">
-			<div class="sect-container">
-
-				<div class="s-title">
-					<h3>RESEARCH</h3>
-					<div class="separator align-center">
-						<span></span>
-					</div>
-				</div>
-
-				<!-- -->
-				<div class="research-item col-md-12">
-					<div class="research-box">
-						<div class="research-text">
-							<p>Monhollen, N. S., K. J. Shinners, J. C. Friede, E. M.C. Rocha, and B. D. Luck. 2019. <i
-									style="color:#009fea">In-field machine vision system for identifying corn kernel
-									losses</i>. Computers and Electronics in Agriculture 174: 105496.</p>
-							<p style="text-align: right">
-								<a href="https://www.sciencedirect.com/science/article/pii/S0168169920302702"
-									class="more" style="color:#009fea;" target="_blank"> More <i
-										class="fa fa-long-arrow-right"></i></a>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- -->
-				<div class="research-item col-md-12">
-					<div class="research-box">
-						<div class="research-text">
-							<p>Drewry, J. L., B. D. Luck, R. L. Willett, E. M. C. Rocha, and J. D. Harmon. 2019. <i
-									style="color:#009fea">Predicting kernel processing score of harvested and processed
-									corn silage via image processing techniques</i>. . Computers and Electronics in
-								Agriculture 160: 144-152.</p>
-							<p style="text-align: right">
-								<a href="https://www.sciencedirect.com/science/article/pii/S0168169918311955"
-									class="more" style="color:#009fea;" target="_blank"> More <i
-										class="fa fa-long-arrow-right"></i></a>
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- -->
-				<div class="research-item col-md-12">
-					<div class="research-box">
-						<div class="research-text">
-							<p>Drewry, J. L., B. D. Luck, R. L. Willett, E. M. C. Rocha, and J. D. Harmon. 2018. <i
-									style="color:#009fea">Assessing Kernel Processing Score of Harvested and Processed
-									Corn Silage Via Image Processing Techniques</i>. . ASABE Annual International
-								Meeting. American Society of Agricultural and Biological Engineers, 2018. p. 1.</p>
-							<p style="text-align: right">
-								<a href="https://elibrary.asabe.org/abstract.asp?aid=49300" class="more"
-									style="color:#009fea;" target="_blank"> More <i
-										class="fa fa-long-arrow-right"></i></a>
-							</p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section>
-		<!-- =========    END SERVICES SECTION    ======== -->
-
-
-		<!-- =========    RESUME SECTION    ======== -->
-		<section class="resume sect-spac text-center" id="resume" data-scroll-index="3">
-			<div class="sect-container">
-
-				<div class="s-title">
-					<h3>RESUME</h3>
-					<div class="separator align-center">
-						<span></span>
-					</div>
-					<!-- DOWNLOAD  -->
-					<div class="resume-button">
-						<a href="resources/resume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Complete
-							Resume</a>
-					</div>
-				</div>
-
-
-
-				<!-- RESUME CONTENT -->
-				<div class="resume-c">
-					<div class="page-content">
-
-						<div class="row">
-							<div class="col-sm-12 col-md-6 col-lg-6">
-								<div class="block">
-									<div class="block-title">
-										<h3><i class="fa fa-graduation-cap"></i> Education</h3>
-									</div>
-
-									<div class="timeline">
-										<!-- Education 1 -->
-										<div class="timeline-item">
-											<h4 class="item-title">MS, Biological Systems Engineering</h4>
-											<span class="item-period">2019</span>
-											<span class="item-small">University of Winconsin-Madison</span>
-										</div>
-										<!-- / Education 1 -->
-
-										<!-- Education 2 -->
-										<div class="timeline-item">
-											<h4 class="item-title">BS, Automation and Controls Engineering</h4>
-											<span class="item-period">2017</span>
-											<span class="item-small"> Universidade de Brasília</span>
-										</div>
-										<!-- / Education 2 -->
-
-									</div>
-								</div>
-							</div>
-
-							<div class="experience col-sm-12 col-md-6 col-lg-6">
-								<div class="block">
-									<div class="block-title">
-										<h3><i class="fa fa-bookmark"></i> Experience</h3>
-									</div>
-
-									<div class="timeline">
-
-										<!-- Experience 1 -->
-										<div class="timeline-item">
-											<h4 class="item-title">Research Engineer: Robotics and AI</h4>
-											<span class="item-period">Oct 2020 - Current</span>
-											<span class="item-small">Siemens AG</span>
-										</div>
-										<!-- / Experience 1 -->
-										<!-- Experience 1 -->
-										<div class="timeline-item">
-											<h4 class="item-title">Robotics Software Engineer</h4>
-											<span class="item-period">Jan 2020 - Sep 2020</span>
-											<span class="item-small">RFA Engineering (John Deere)</span>
-										</div>
-										<!-- / Experience 1 -->
-
-										<!-- Experience 2 -->
-										<div class="timeline-item">
-											<h4 class="item-title">Research Assistant</h4>
-											<span class="item-period">Jan 2018 - Dec 2019</span>
-											<span class="item-small">University of Winconsin-Madison</span>
-										</div>
-										<!-- / Experience 2 -->
-
-										<!-- Experience 3 -->
-										<div class="timeline-item">
-											<h4 class="item-title">Product Engineering Intern</h4>
-											<span class="item-period">May 2019 - Aug 2019</span>
-											<span class="item-small">John Deere</span>
-										</div>
-										<!-- / Experience 3 -->
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<!-- END RESUME CONTENT -->
-
-			</div>
-		</section>
-		<!-- =========    END RESUME SECTION    ======== -->
-
-
-		<!-- =========    DOWNLOAD SECTION    ======== -->
-		<!--ection class="download sect-spac">
-				<div class="sect-container">
-
-					<div class="download-text col-md-9 col-xs-12">
-						<h4>Download My Resume</h4>
-						<span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</span>
-					</div>
-
-					<div class="download-button col-md-3 col-xs-12">
-						<a href="#" target="_blank"><i class="fa fa-download"></i> Download</a>
-					</div>
-
-				</div>
-			</section-->
-		<!-- =========    DOWNLOAD SECTION    ======== -->
-
-
 		<!-- =========    PORTFOLIO SECTION    ======== -->
-		<section class="portfolio sect-spac text-center" id="portfolio" data-scroll-index="4">
+		<section class="portfolio sect-spac text-center" id="portfolio" data-scroll-index="1">
 			<div class="sect-container">
 
 				<div class="s-title">
@@ -659,7 +338,7 @@
 					<!-- PORTFOLIO ITEM -->
 					<div class="portfolio-item item-rob">
 						<div class="portfolio-caption">
-							<a class="modal-image" href="#modal-image-2">
+							<a class="modal-image" href="#modal-image-x">
 
 								<!-- PORTFOLIO IMAGE -->
 								<img src="img/pumpver.png" alt="Image Title" width="952" height="952" />
@@ -677,7 +356,7 @@
 						</div>
 					</div>
 					<!-- POPUP WHITE BOX -->
-					<div id="modal-image-2" class="white-popup mfp-hide">
+					<div id="modal-image-x" class="white-popup mfp-hide">
 
 						<!-- POPUP WHITE BOX IMAGE -->
 						<img src="img/pumphor.png" alt="Image Title" />
@@ -1074,6 +753,298 @@
 		<!-- =========    END PORTFOLIO SECTION    ======== -->
 
 
+		<!-- =========    ABOUT ME SECTION    ======== -->
+		<section class="about-me sect-spac" id="about" data-scroll-index="2">
+			<div class="sect-container">
+				<div class="s-title">
+					<h3>About Me</h3>
+					<div class="separator align-center">
+						<span></span>
+					</div>
+				</div>
+
+				<!-- START ABOUT TEXT AREA -->
+				<div class="about-text">
+					<p><span style="color:#009fea">I started my carrer with the focus on increasing the autonomy of
+							agricultural and construction equipament - from
+							hardware architecture to using Computer Vision and Machine Learning</span>.
+						I was very fortunate to work with cutting edge technologies for the
+						John Deere Intelligent Solutions Group.
+						<span style="color:#009fea">I recently moved to a new role focused on advanced manufacturing at
+							the Siemens'
+							research group in Berkeley.</span>
+						Although I still work with the same technologies as before,
+						this new area has a broader reach and impact (including in agriculture).
+						<br><br>
+						I was born and raised in Brasília, Brazil, where I acquired a <span style="color:#009fea">B.S.
+							degree in Automation and
+							Controls Engineering</span>. I moved to the U.S. in 2018 and acquired a <span
+							style="color:#009fea">M.S. degree in Biological
+							Systems Engineering focusing on Perception Systems and Machine Learning for Computer
+							Vision</span>.
+						<br><br>
+						In my free time, I love to watch and practice sports, and I am passionate about traveling. I
+						often play soccer, and I love to be outdoors. From hiking to mountain biking, if the weather
+						allows it, chances are that I am outside.
+						<br><br></p>
+				</div>
+
+				<div>
+					<div class="resume resume-button">
+						<a href="resources/resume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Complete
+							Resume</a>
+					</div>
+
+					<br>
+					<br>
+
+					<!-- RESUME CONTENT -->
+					<div class="resume-c">
+						<div class="page-content">
+
+							<div class="row">
+								<div class="col-sm-12 col-md-6 col-lg-6">
+									<div class="block">
+										<div class="block-title">
+											<h3><i class="fa fa-graduation-cap"></i> Education</h3>
+										</div>
+
+										<div class="timeline">
+											<!-- Education 1 -->
+											<div class="timeline-item">
+												<h4 class="item-title">MS, Biological Systems Engineering</h4>
+												<span class="item-period">2019</span>
+												<span class="item-small">University of Winconsin-Madison</span>
+											</div>
+											<!-- / Education 1 -->
+
+											<!-- Education 2 -->
+											<div class="timeline-item">
+												<h4 class="item-title">BS, Automation and Controls Engineering</h4>
+												<span class="item-period">2017</span>
+												<span class="item-small"> Universidade de Brasília</span>
+											</div>
+											<!-- / Education 2 -->
+
+										</div>
+									</div>
+								</div>
+
+								<div class="experience col-sm-12 col-md-6 col-lg-6">
+									<div class="block">
+										<div class="block-title">
+											<h3><i class="fa fa-bookmark"></i> Experience</h3>
+										</div>
+
+										<div class="timeline">
+
+											<!-- Experience 1 -->
+											<div class="timeline-item">
+												<h4 class="item-title">Research Engineer: Robotics and AI</h4>
+												<span class="item-period">Oct 2020 - Current</span>
+												<span class="item-small">Siemens AG</span>
+											</div>
+											<!-- / Experience 1 -->
+											<!-- Experience 1 -->
+											<div class="timeline-item">
+												<h4 class="item-title">Robotics Software Engineer</h4>
+												<span class="item-period">Jan 2020 - Sep 2020</span>
+												<span class="item-small">RFA Engineering (John Deere)</span>
+											</div>
+											<!-- / Experience 1 -->
+
+											<!-- Experience 2 -->
+											<div class="timeline-item">
+												<h4 class="item-title">Research Assistant</h4>
+												<span class="item-period">Jan 2018 - Dec 2019</span>
+												<span class="item-small">University of Winconsin-Madison</span>
+											</div>
+											<!-- / Experience 2 -->
+
+											<!-- Experience 3 -->
+											<div class="timeline-item">
+												<h4 class="item-title">Product Engineering Intern</h4>
+												<span class="item-period">May 2019 - Aug 2019</span>
+												<span class="item-small">John Deere</span>
+											</div>
+											<!-- / Experience 3 -->
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="row">
+								<div class="col-sm-12 col-md-12 col-lg-12">
+									<div class="block">
+										<div class="block-title">
+											<h3><i class="fa fa-flask"></i> Research</h3>
+										</div>
+
+										<div class="timeline">
+											<div class="timeline-item">
+												<p>Monhollen, N. S., K. J. Shinners, J. C. Friede, E. M.C. Rocha, and B.
+													D.
+													Luck. 2019.
+													<a href="https://www.sciencedirect.com/science/article/pii/S0168169920302702"
+														class="more" style="color:#009fea;" target="_blank"> In-field
+														machine vision system for identifying corn kernel
+														losses</a>. Computers and Electronics in Agriculture 174:
+													105496.
+												</p>
+											</div>
+
+											<div class="timeline-item">
+												<p>Drewry, J. L., B. D. Luck, R. L. Willett, E. M. C. Rocha, and J. D.
+													Harmon. 2019.
+													<a href="https://www.sciencedirect.com/science/article/pii/S0168169918311955"
+														class="more" style="color:#009fea;" target="_blank"> Predicting
+														kernel processing score of harvested and processed
+														corn silage via image processing techniques</a>. Computers and
+													Electronics in
+													Agriculture 160: 144-152.
+												</p>
+											</div>
+
+											<div class="timeline-item">
+												<p>Drewry, J. L., B. D. Luck, R. L. Willett, E. M. C. Rocha, and J. D.
+													Harmon. 2018.
+													<a href="https://elibrary.asabe.org/abstract.asp?aid=49300"
+														class="more" style="color:#009fea;" target="_blank"> Assessing
+														Kernel Processing
+														Score of Harvested and Processed
+														Corn Silage Via Image Processing Techniques</a>. ASABE Annual
+													International
+													Meeting. American Society of Agricultural and Biological Engineers,
+													2018. p. 1.
+												</p>
+											</div>
+
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- / END ABOUT TEXT AREA 
+
+				<div class="section">
+
+					<script>
+						window.onload = function () {
+
+							var chart = new CanvasJS.Chart("chartContainer", {
+								exportFileName: "Doughnut Chart",
+								exportEnabled: false,
+								animationEnabled: false,
+								legend: {
+									cursor: "pointer",
+									itemclick: explodePie,
+
+								},
+								data: [{
+									type: "doughnut",
+									innerRadius: 90,
+									showInLegend: false,
+									toolTipContent: "<b>{name}</b>",
+									indexLabel: "{name}",
+									dataPoints: [
+										{ y: 15, name: "Sleeping & dreaming about work", color: "#009fea" },
+										{ y: 20, name: "Things related to developing more cool stuff", color: "#000DAC" },
+										{ y: 5, name: "Playing soccer or exercising", color: "#0013FA" },
+										{ y: 20, name: "Spending time with family", color: "#009fea" },
+										{ y: 5, name: "Getting up to speed with the news", color: "#000DAC" },
+										{ y: 30, name: "Developing cool stuff", color: "#0013FA" },
+										{ y: 5, name: "Walking the dog", color: "#000DAC" }
+									]
+								}]
+							});
+							chart.render();
+
+							function explodePie(e) {
+								if (typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+									e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+								} else {
+									e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+								}
+								e.chart.render();
+							}
+
+						}
+					</script>
+					<h3>A day in my life</h3>
+					<div id="chartContainer" style="height: 370px; margin-top: 25px auto;"></div>
+					<script src="js/canvasjs.min.js"></script>
+				</div-->
+
+				<div class="clear"></div>
+
+			</div>
+		</section>
+		<!-- =========    END ABOUT ME SECTION    ======== -->
+
+
+		<!-- =========    FACTS SECTION    ======== -->
+		<section class="facts sect-spac">
+			<!--div class="sect-container">
+
+					<div class="fact-box col-xs-12 col-sm-3">
+						<h3>
+							<span class="count" data-from="0" data-to="90">0</span>
+						</h3> 
+						<h4>Projects Done</h4>
+					</div>
+					<div class="fact-box col-xs-12 col-sm-3">
+						<h3>
+							<span class="count" data-from="0" data-to="30">0</span>
+						</h3> 
+						<h4>CUPS OF COFFEE</h4>
+					</div>
+					<div class="fact-box col-xs-12 col-sm-3">
+						<h3>
+							<span class="count" data-from="0" data-to="500">0</span>
+						</h3> 
+						<h4>HAPPY CLIENTS</h4>
+					</div>
+					<div class="fact-box col-xs-12 col-sm-3">
+						<h3>
+							<span class="count" data-from="0" data-to="77">0</span>
+						</h3> 
+						<h4>GIVING SUPPORT</h4>
+					</div>
+
+				</div-->
+		</section>
+		<!-- =========    END FACTS SECTION    ======== -->
+
+
+
+
+
+		<!-- =========    DOWNLOAD SECTION    ======== -->
+		<!--ection class="download sect-spac">
+				<div class="sect-container">
+
+					<div class="download-text col-md-9 col-xs-12">
+						<h4>Download My Resume</h4>
+						<span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</span>
+					</div>
+
+					<div class="download-button col-md-3 col-xs-12">
+						<a href="#" target="_blank"><i class="fa fa-download"></i> Download</a>
+					</div>
+
+				</div>
+			</section-->
+		<!-- =========    DOWNLOAD SECTION    ======== -->
+
+
+
+
+
 		<!-- =========    TESTIMONIALS SECTION    ======== >
 			<section class="testimonials sect-spac text-center">
 				<div class="sect-container">
@@ -1225,18 +1196,11 @@
 		<section class="contact sect-spac text-center" id="contact" data-scroll-index="6">
 			<div class="sect-container">
 
-				<div class="s-title">
-					<h3>GET IN TOUCH</h3>
-					<div class="separator align-center">
-						<span></span>
-					</div>
-				</div>
-
 				<div class="contact-info col-md-10 col-sm-10 col-xs-12">
 					<ul>
 						<li class="col-md-6">
 							<i class="fa fa-map-marker"></i>
-							<span>San Francisco, CA</span>
+							<span>San Francisco Bay Area, CA</span>
 						</li>
 						<li class="col-md-6">
 							<i class="fa fa-envelope-o"></i>
@@ -1281,7 +1245,7 @@
 			<!-- END SOCIAL MEDIA -->
 
 			<div>
-				<p style="color: #009fea;">Last updated: September 2020</p>
+				<p style="color: #009fea;">Last updated: October 2020</p>
 			</div>
 		</section>
 		<!-- =========    END CONTACT SECTION    ======== -->
